@@ -7,7 +7,7 @@ services:
     build: 
       context: postgres
     ports:
-      - "5432:5432"
+      - "5482:5482"
     container_name: docker_postgres
     # Persist this data between sessions
     volumes:
